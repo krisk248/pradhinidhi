@@ -1,0 +1,21 @@
+{
+  "name": "Pradhinidhi",
+  "description": "Web proxy for evading internet censorship",
+  "author": "",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "",
+  "dependencies": {
+    "express": "^4.13.0",
+    "newrelic": "^1.20.2",
+    "through": "^2.3.8",
+    "unblocker": "github:nfriedly/node-unblocker#websockets"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "license": "AGPL-3.0"
+}
